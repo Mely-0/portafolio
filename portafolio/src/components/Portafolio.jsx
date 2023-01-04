@@ -3,6 +3,7 @@ import '../components/portafolio.css'
 import image from '../components/img/html2.png'
 import image2 from '../components/img/css2.png'
 import image3 from '../components/img/js2.png'
+import Caroulsel from './caroulsel'
 import { FaGithub } from "react-icons/fa";
 import { FaFacebookSquare } from "react-icons/fa";
 import { HiMail } from "react-icons/hi";
@@ -10,7 +11,7 @@ export const Portafolio = () => {
   return (
     <div className='portafolio'>
     <div className='navegacion'>
-      <nav>
+      <nav className='nav'>
         <ul>
           <li>portafolio</li>
           <li>sobremi</li>
@@ -33,15 +34,7 @@ export const Portafolio = () => {
       <h2>HELLO PEOPLE</h2>
       <h4 className='aboutme'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, nobis. Accusantium hic expedita dolorem eos, voluptates illo modi ducimus adipisci labore aperiam, cum consectetur fugit blanditiis porro accusamus ipsa sequi!</h4>
       <div className='habilidades'>
-        <section className='habi1'>
-          <img className='html' src={image}/>
-        </section>
-        <section className='habi2'>
-        <img className='css' src={image2}/>
-        </section>
-        <section className='habi3'>
-        <img className='js' src={image3}/>
-        </section>
+{<Caroulsel/>}
       </div>
     </div>
     <div className='container-pro'>
