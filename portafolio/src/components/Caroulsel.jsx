@@ -28,14 +28,14 @@ function Carousel () {
       <img src={image} class="d-block w-100" alt="..." id='html'/>
     </div>
 
-    <div id='habi4' class="carousel-item">
+    {/* <div id='habi4' class="carousel-item">
       <p>REACT</p>
       <img src={image4} class="d-block w-100" alt="..." id='html'/>
       </div>
       <div id='habi5' class="carousel-item">
       <p>NODE JS</p>
       <img src={image6} class="d-block w-100" alt="..." id='html'/>
-    </div> 
+    </div> */}
     <div id='habi6' class="carousel-item">
       <p>CSS</p>
       <img src={image2} class="d-block w-100" alt="..." id='html'/>
