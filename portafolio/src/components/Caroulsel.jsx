@@ -19,21 +19,26 @@ function Carousel () {
       <p>JAVA SCRIPT</p>
       <img src={image3} class="d-block w-100" alt="..." id='js'/>
     </div>
-    <div id='habi2' class="carousel-item">
+    {/* <div id='habi2' class="carousel-item">
       <p>PHP</p>
       <img src={image5} class="d-block w-100" alt="..." id='css'/>
-    </div>
+    </div> */}
     <div id='habi3' class="carousel-item">
       <p>HTML</p>
       <img src={image} class="d-block w-100" alt="..." id='html'/>
     </div>
+
     <div id='habi4' class="carousel-item">
       <p>REACT</p>
       <img src={image4} class="d-block w-100" alt="..." id='html'/>
-    </div>
-    <div id='habi5' class="carousel-item">
+      </div>
+      <div id='habi5' class="carousel-item">
       <p>NODE JS</p>
       <img src={image6} class="d-block w-100" alt="..." id='html'/>
+    </div> 
+    <div id='habi6' class="carousel-item">
+      <p>CSS</p>
+      <img src={image2} class="d-block w-100" alt="..." id='html'/>
     </div>
   </div>
   <button class="carousel-control-prev text-light" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">

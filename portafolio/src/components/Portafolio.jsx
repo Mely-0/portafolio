@@ -30,8 +30,8 @@ export const Portafolio = () => {
 </nav>
     <div className='contenedor1' id='contenedor1'>
       <section className='texto'>
-        <h1>Luis Florez</h1>
-        <p>Programador de software , 20 años.</p>
+        <h1>Liseth Moreno</h1>
+        <p>Programador de software , 21 años.</p>
       </section>
       <section className='foto'></section>
     </div>
@@ -42,9 +42,9 @@ export const Portafolio = () => {
       <h5 className='aboutme'>
         Sobre mi 
         <hr />
-        Desarrollador de software Con una gran cantidad para resolver problemas de forma sistemátisada .</h5>
+        soy de la Cuidad de Caracas , Venezuela ... Amante a los atardeceré  y la musica POP.</h5>
       <div className='habilidades' id='habilidades'>
-       {<Caroulsel/>}
+      {<Caroulsel/>}
       </div>
     </div>
     <div className='container-pro' id='container-pro'>
@@ -56,12 +56,12 @@ export const Portafolio = () => {
             <div className="face face1">
                 <div className="content">
                     <img src="https://github.com/Jhonierpc/WebDevelopment/blob/master/CSS%20Card%20Hover%20Effects/img/design_128.png?raw=true"/>
-                    <h3>Crud js</h3>
+                    <h3>Vista en css</h3>
                 </div>
             </div>
             <div className="face face2">
                 <div className="content">
-                <a href=" https://aesthetic-caramel-d36020.netlify.app/"> Ver</a>
+                <a href="https://estiloscss123.netlify.app"> Ver</a>
                 </div>
             </div>
         </div>
@@ -69,12 +69,12 @@ export const Portafolio = () => {
             <div className="face face1">
                 <div className="content">
                     <img src="https://github.com/Jhonierpc/WebDevelopment/blob/master/CSS%20Card%20Hover%20Effects/img/code_128.png?raw=true"/>
-                    <h3>Api perros</h3>
+                    <h3>Calculadora en Javascript</h3>
                 </div>
             </div>
             <div className="face face2">
                 <div className="content">
-                        <a href="https://roaring-madeleine-e7304f.netlify.app/">Ver</a>
+                        <a href="https://calculadorajs123.netlify.app">Ver</a>
                 </div>
             </div>
         </div>
@@ -82,12 +82,12 @@ export const Portafolio = () => {
             <div className="face face1">
                 <div className="content">
                     <img src="https://github.com/Jhonierpc/WebDevelopment/blob/master/CSS%20Card%20Hover%20Effects/img/launch_128.png?raw=true"/>
-                    <h3>Lista de tareas </h3>
+                    <h3>Replica de youtube </h3>
                 </div>
             </div>
             <div className="face face2">
                 <div className="content">
-                  <a href="https://dancing-panda-625f6c.netlify.app/">ver</a>
+                  <a href="replicayoutube.netlify.app">ver</a>
                 </div>
             </div>
         </div>
@@ -95,7 +95,7 @@ export const Portafolio = () => {
     </div>
     <div className='contactos-pro' id='contactos-pro'>
     <div className='contactos'>
-        <a href="https://github.com/Luis127Florez" className='img-1'>
+        <a href="replicayoutube.netlify.app" className='img-1'>
       <article >
       <FaGithub className='ico-1'/>
       </article>
