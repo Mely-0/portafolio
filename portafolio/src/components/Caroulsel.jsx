@@ -14,8 +14,8 @@ function Carousel () {
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6"></button>
+    {/* <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button> */}
+    {/* <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6"></button> */}
 
   </div>
   <div id='cont-habi' class="carousel-inner">
@@ -36,18 +36,18 @@ function Carousel () {
       <p>REACT</p>
       <img src={image4} class="d-block w-100" alt="..." id='html'/>
       </div>
-      <div id='habi5' class="carousel-item">
+      {/* <div id='habi5' class="carousel-item">
       <p>NODE JS</p>
       <img src={image6} class="d-block w-100" alt="..." id='html'/>
-    </div> 
+    </div>  */}
     <div id='habi6' class="carousel-item">
       <p>CSS</p>
       <img src={image2} class="d-block w-100" alt="..." id='html'/>
     </div>
-    <div id='habi7' class="carousel-item">
+    {/* <div id='habi7' class="carousel-item">
       <p>PYTHON</p>
       <img src={image7} class="d-block w-100" alt="..." id='html'/>
-    </div>
+    </div> */}
   </div>
   <button class="carousel-control-prev text-light" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true" id='click'></span>
