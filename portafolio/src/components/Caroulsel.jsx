@@ -4,6 +4,8 @@ import image2 from '../components/img/css2.png'
 import image6 from '../components/img/node-js.png'
 import image5 from '../components/img/php.png'
 import image4 from '../components/img/react2.png'
+import image7 from '../components/img/python.png'
+
 function Carousel () {
   return(
       <div id="carouselExampleIndicators" class="carousel slide">
@@ -13,6 +15,8 @@ function Carousel () {
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6"></button>
+
   </div>
   <div id='cont-habi' class="carousel-inner">
     <div id='habi1' class="carousel-item active" >
@@ -28,17 +32,21 @@ function Carousel () {
       <img src={image} class="d-block w-100" alt="..." id='html'/>
     </div>
 
-    {/* <div id='habi4' class="carousel-item">
+    <div id='habi4' class="carousel-item">
       <p>REACT</p>
       <img src={image4} class="d-block w-100" alt="..." id='html'/>
       </div>
       <div id='habi5' class="carousel-item">
       <p>NODE JS</p>
       <img src={image6} class="d-block w-100" alt="..." id='html'/>
-    </div> */}
+    </div> 
     <div id='habi6' class="carousel-item">
       <p>CSS</p>
       <img src={image2} class="d-block w-100" alt="..." id='html'/>
+    </div>
+    <div id='habi7' class="carousel-item">
+      <p>PYTHON</p>
+      <img src={image7} class="d-block w-100" alt="..." id='html'/>
     </div>
   </div>
   <button class="carousel-control-prev text-light" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
