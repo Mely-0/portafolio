@@ -30,8 +30,8 @@ export const Portafolio = () => {
 </nav>
     <div className='contenedor1' id='contenedor1'>
       <section className='texto'>
-        <h1>Franco Muñoz</h1>
-        <p>Programador de software , 18 años.</p>
+        <h1>Luis Florez</h1>
+        <p>Programador de software , 20 años.</p>
       </section>
       <section className='foto'></section>
     </div>
@@ -42,18 +42,9 @@ export const Portafolio = () => {
       <h5 className='aboutme'>
         Sobre mi 
         <hr />
-        Soy una persona organizada y proactiva, me gusta los
-      desafíos más difíciles y participar en nuevos proyectos,
-además de aportar todos los conocimientos que he
-adquirido en mi formación académica. Tengo capacidad
-para trabajar en equipo e impulsar valores que marquen
-a las personas como el del compañerismo y la amistad.
-Me considero un profesional dinámico y con grandes
-capacidades de adaptación a nuevas funciones. Como
-estudiante en curso, tengo muchas ganas de ejercer mi
-profesión y aprender constantemente cosas nuevas.</h5>
+        Desarrollador de software Con una gran cantidad para resolver problemas de forma sistemátisada .</h5>
       <div className='habilidades' id='habilidades'>
-{<Caroulsel/>}
+       {<Caroulsel/>}
       </div>
     </div>
     <div className='container-pro' id='container-pro'>
@@ -65,12 +56,12 @@ profesión y aprender constantemente cosas nuevas.</h5>
             <div className="face face1">
                 <div className="content">
                     <img src="https://github.com/Jhonierpc/WebDevelopment/blob/master/CSS%20Card%20Hover%20Effects/img/design_128.png?raw=true"/>
-                    <h3>Lista de tareas</h3>
+                    <h3>Crud js</h3>
                 </div>
             </div>
             <div className="face face2">
                 <div className="content">
-                <a href=" https://incandescent-frangipane-448ff1.netlify.app/"> Ver</a>
+                <a href=" https://aesthetic-caramel-d36020.netlify.app/"> Ver</a>
                 </div>
             </div>
         </div>
@@ -78,12 +69,12 @@ profesión y aprender constantemente cosas nuevas.</h5>
             <div className="face face1">
                 <div className="content">
                     <img src="https://github.com/Jhonierpc/WebDevelopment/blob/master/CSS%20Card%20Hover%20Effects/img/code_128.png?raw=true"/>
-                    <h3>Hoja de vida</h3>
+                    <h3>Api perros</h3>
                 </div>
             </div>
             <div className="face face2">
                 <div className="content">
-                        <a href="https://lighthearted-cajeta-25981f.netlify.app/">ver</a>
+                        <a href="https://roaring-madeleine-e7304f.netlify.app/">Ver</a>
                 </div>
             </div>
         </div>
@@ -91,12 +82,12 @@ profesión y aprender constantemente cosas nuevas.</h5>
             <div className="face face1">
                 <div className="content">
                     <img src="https://github.com/Jhonierpc/WebDevelopment/blob/master/CSS%20Card%20Hover%20Effects/img/launch_128.png?raw=true"/>
-                    <h3>Proyecto con chakra ui</h3>
+                    <h3>Lista de tareas </h3>
                 </div>
             </div>
             <div className="face face2">
                 <div className="content">
-                  <a href=" https://comfy-elf-152548.netlify.app/">ver</a>
+                  <a href="https://dancing-panda-625f6c.netlify.app/">ver</a>
                 </div>
             </div>
         </div>
@@ -104,7 +95,7 @@ profesión y aprender constantemente cosas nuevas.</h5>
     </div>
     <div className='contactos-pro' id='contactos-pro'>
     <div className='contactos'>
-        <a href="https://github.com/PROYECTO-X2022-02" className='img-1'>
+        <a href="https://github.com/Luis127Florez" className='img-1'>
       <article >
       <FaGithub className='ico-1'/>
       </article>
