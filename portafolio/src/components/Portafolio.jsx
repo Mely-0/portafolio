@@ -1,27 +1,34 @@
 import React from 'react'
 import '../components/portafolio.css'
-import image from '../components/img/html2.png'
-import image2 from '../components/img/css2.png'
-import image3 from '../components/img/js2.png'
 import Caroulsel from './caroulsel'
 import { FaGithub } from "react-icons/fa";
 import { FaFacebookSquare } from "react-icons/fa";
 import { HiMail } from "react-icons/hi";
 export const Portafolio = () => {
+
   return (
+    
     <div className='portafolio'>
-    <div className='navegacion'>
-      <nav className='nav'>
-        <ul>
-          <li>portafolio</li>
-          <li>sobremi</li>
-          <li>habilidades</li>
-          <li>proyectos</li>
-          <li>contactos</li>
-        </ul>
-      </nav>
-    </div>
-    <div className='contenedor1'>
+      <nav id="navbar-example2" class="navbar bg-body-tertiary">
+  <ul class="nav nav-pills">
+    <li class="nav-item">
+      <a class="nav-link" href="#contenedor1">Portafolio</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#sobremi">Sobremi</a>
+    </li>
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Menu</a>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#habilidades">Habilidades</a></li>
+        <li><a class="dropdown-item" href="#container-pro">Proyectos</a></li>
+        <li><hr class="dropdown-divider"/></li>
+        <li><a class="dropdown-item" href="#contactos-pro">Contactos</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+    <div className='contenedor1' id='contenedor1'>
       <section className='texto'>
         <h1>Franco Muñoz</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In, cupiditate.</p>
@@ -30,14 +37,26 @@ export const Portafolio = () => {
     </div>
     <section className='picture'></section>
 
-    <div className='sobremi'>
-      <h2>HELLO PEOPLE</h2>
-      <h4 className='aboutme'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, nobis. Accusantium hic expedita dolorem eos, voluptates illo modi ducimus adipisci labore aperiam, cum consectetur fugit blanditiis porro accusamus ipsa sequi!</h4>
-      <div className='habilidades'>
+    <div className='sobremi' id='sobremi'>
+
+      <h5 className='aboutme'>
+        Sobre mi 
+        <hr />
+        Soy una persona organizada y proactiva, me gusta los
+      desafíos más difíciles y participar en nuevos proyectos,
+además de aportar todos los conocimientos que he
+adquirido en mi formación académica. Tengo capacidad
+para trabajar en equipo e impulsar valores que marquen
+a las personas como el del compañerismo y la amistad.
+Me considero un profesional dinámico y con grandes
+capacidades de adaptación a nuevas funciones. Como
+estudiante en curso, tengo muchas ganas de ejercer mi
+profesión y aprender constantemente cosas nuevas.</h5>
+      <div className='habilidades' id='habilidades'>
 {<Caroulsel/>}
       </div>
     </div>
-    <div className='container-pro'>
+    <div className='container-pro' id='container-pro'>
       <article className='tituloProyecto'>
       <h3>Proyectos</h3>
       </article>
@@ -86,10 +105,7 @@ export const Portafolio = () => {
         </div>
     </div>
     </div>
-    <div className='contactos-pro'>
-    <article className='TituloContacto'>
-      <h3>contactanos</h3>
-      </article>
+    <div className='contactos-pro' id='contactos-pro'>
     <div className='contactos'>
       <article className='img-1'>
       <FaGithub className='ico-1'/>

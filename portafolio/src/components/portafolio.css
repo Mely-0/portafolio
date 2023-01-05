@@ -9,7 +9,7 @@
     height: 5%;
     margin-top: 0;
     padding: 0;
-    background-color:#4804b6;
+    background-color:#1877F2;
     color:white;
     display: flex;
     justify-content: center;
@@ -53,7 +53,7 @@ li:hover{
     height: 70%;
     margin: auto;
     margin-top: 20px;
-    background-image: url('./img/avatar.png');
+    background-image: url('./img/franco.png');
     background-repeat: no-repeat;
     background-size: 100% 100%;
     border-radius: 50%;
@@ -68,10 +68,10 @@ li:hover{
 .sobremi{
     width: 100%;
     height: 30%;
-    background-color: #4804b6;
+    background-color:#1877F2;
     position: absolute;
 }
-h2, h4{
+h2, h5{
     text-align: center;
     color: white;
     margin-top: 20px;
@@ -80,9 +80,23 @@ h2, h4{
     width: 80%;
     margin: auto;
 }
+#carouselExampleIndicators{
+ width: 100%;
+ height: 100%;   
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ text-align: center;
+}
+#cont-habi{
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    margin-left: 15%;
+}
 .habilidades{
     width: 85%;
-    height: 80%;
+    height: 100%;
     background-color:white;
     position: relative;
     margin: auto;
@@ -95,40 +109,30 @@ h2, h4{
     box-shadow: 0px 2px 2px 0px white;
     gap:10px;
 }
-.habi1{
-    width: 30%;
-    height: 50%;
-    background-color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 50%;
-    box-shadow: 0 5px 20px gray;
+#habi1{
+    width: 80%;
+    height: 100%;
+    margin: auto;
 }
-.html, .css, .js{
-    width: 80px;
-    height: 80px;
+#html, #css, #js{
+width: 20px;
+height: 230px;
 }
-.habi2{
-    width: 30%;
-    height: 50%;
-    background-color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;   
-    border-radius: 50%;
-    box-shadow: 0 5px 20px gray;
+#habi2{
+    width: 80%;
+    height: 100%;
+}
+#habi3{
+    width: 80%;
+    height: 100%;
+    margin: auto;
+}
+#habi4{
+    width: 80%;
+    height: 100%;
+    margin: auto;
+}
 
-}.habi3{
-    width: 30%;
-    height: 50%;
-    background-color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 50%;
-    box-shadow: 0 5px 20px gray;
-}
 .proyectos{
     width: 100%;
     height: 40%;
@@ -205,7 +209,7 @@ h3{
 }
 
 .container .card:hover .face.face1{
-    background:  #4804b6;
+    background: #1877F2;
     transform: translateY(0);
 }
 
@@ -268,7 +272,7 @@ h3{
 .contactos-pro{
     width: 100%;
     height: 12%;
-    background-color: #4804b6;
+    background-color: #1877F2;
     margin-top: 5%;
     display: flex;
     flex-direction: column;
@@ -276,24 +280,18 @@ h3{
     align-items: center;
     gap: 5px;
 }
-.TituloContacto{
-    width: 100%;
-    height: 30%;
-    text-align: center;
-    color: white;
-    background-color: #4804b6;
-}
+
 .contactos{
     width: 100%;
     height: 80%;
-    background-color: #4804b6;
+    background-color: #1877F2;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 5px;
 }
 .img-1{
-    width: 20%;
+    width: 8%;
     height: 100%;
    display: flex;
    justify-content: center;
@@ -301,24 +299,27 @@ h3{
 .ico-1{
     width: 40px;
     height: 100px;
+    color: white;
 }
 .ico-2{
     width: 40px;
     height: 100px;
+    color: white;
 }
 .ico-3{
     width: 40px;
     height: 100px;
+    color: white;
 }
 
 .img-2{
-    width: 20%;
+    width: 8%;
     height: 100%;
     display: flex;
     justify-content: center;
 }
 .img-3{
-    width: 20%;
+    width: 8%;
     height: 100%;
     display: flex;
     justify-content: center;
@@ -335,7 +336,7 @@ h3{
         height: 5%;
         margin-top: 0;
         padding: 0;
-        background-color:#4804b6;
+        background-color:#1877F2;
         color:white;
         display: flex;
         justify-content: flex-end;
@@ -345,11 +346,11 @@ h3{
         margin-right: 2%;
     }
     .foto{
-        width: 70%;
+        width: 55%;
         height: 70%;
         margin: auto;
         margin-top: 20px;
-        background-image: url('./img/avatar.png');
+        background-image: url('./img/franco.png');
         background-repeat: no-repeat;
         background-size: 100% 100%;
         border-radius: 50%;
@@ -367,9 +368,9 @@ h3{
         margin: auto;
     }
     .habilidades{
-        width: 23%;
-        height: 90%;
-        margin-top: 2%;
+        width: 28%;
+        height: 100%;
+        margin-top: 1%;
     }
     .proyectos{
         width: 100%;
@@ -385,7 +386,7 @@ h3{
         display: flex;
         flex-direction: column;
         justify-content: center;
-        margin-top: 26%;
+        margin-top: 30%;
         gap:20px;
     
     }

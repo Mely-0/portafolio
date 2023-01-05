@@ -1,98 +1,45 @@
+import image3 from '../components/img/js2.png'
+import image from '../components/img/html2.png'
+import image2 from '../components/img/css2.png'
+import image4 from '../components/img/react2.png'
+function Carousel () {
+  return(
+      <div id="carouselExampleIndicators" class="carousel slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+  </div>
+  <div id='cont-habi' class="carousel-inner">
+    <div id='habi1' class="carousel-item active" >
+      <p>JAVA SCRIPT</p>
+      <img src={image3} class="d-block w-100" alt="..." id='js'/>
+    </div>
+    <div id='habi2' class="carousel-item">
+      <p>CSS</p>
+      <img src={image2} class="d-block w-100" alt="..." id='css'/>
+    </div>
+    <div id='habi3' class="carousel-item">
+      <p>HTML</p>
+      <img src={image} class="d-block w-100" alt="..." id='html'/>
+    </div>
+    <div id='habi4' class="carousel-item">
+      <p>REACT</p>
+      <img src={image4} class="d-block w-100" alt="..." id='html'/>
+    </div>
+  </div>
+  <button class="carousel-control-prev text-light" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
 
-import 'bootstrap/dist/css/bootstrap.min.css'
-import React, { Component } from 'react';
-import {
-  Carousel,
-  CarouselItem,
-  CarouselControl,
-  CarouselIndicators,
-  CarouselCaption
-} from 'reactstrap';
-
-const items = [
-  {
-    src: 'https://drive.google.com/file/d/1yflbpRypkk5dVTHP8WPLAxjqVIsQyZ9P/view?usp=sharing',
-    altText: 'Slide 1',
-    caption: 'Slide 1'
-  },
-  {
-    src: '',
-    altText: 'Slide 2',
-    caption: 'Slide 2'
-  },
-  {
-    src: '',
-    altText: 'Slide 3',
-    caption: 'Slide 3'
-  }
-];
-
-class Caroulsel extends Component {
-  constructor(props) {
-    super(props);
-    this.state = { activeIndex: 0 };
-    this.next = this.next.bind(this);
-    this.previous = this.previous.bind(this);
-    this.goToIndex = this.goToIndex.bind(this);
-    this.onExiting = this.onExiting.bind(this);
-    this.onExited = this.onExited.bind(this);
-  }
-
-  onExiting() {
-    this.animating = true;
-  }
-
-  onExited() {
-    this.animating = false;
-  }
-
-  next() {
-    if (this.animating) return;
-    const nextIndex = this.state.activeIndex === items.length - 1 ? 0 : this.state.activeIndex + 1;
-    this.setState({ activeIndex: nextIndex });
-  }
-
-  previous() {
-    if (this.animating) return;
-    const nextIndex = this.state.activeIndex === 0 ? items.length - 1 : this.state.activeIndex - 1;
-    this.setState({ activeIndex: nextIndex });
-  }
-
-  goToIndex(newIndex) {
-    if (this.animating) return;
-    this.setState({ activeIndex: newIndex });
-  }
-
-  render() {
-    const { activeIndex } = this.state;
-
-    const slides = items.map((item) => {
-      return (
-        <CarouselItem
-          onExiting={this.onExiting}
-          onExited={this.onExited}
-          key={item.src}
-        >
-          <img src={item.src} alt={item.altText} />
-          <CarouselCaption captionText={item.caption} captionHeader={item.caption} />
-        </CarouselItem>
-      );
-    });
-
-    return (
-      <Carousel
-        activeIndex={activeIndex}
-        next={this.next}
-        previous={this.previous}
-      >
-        <CarouselIndicators items={items} activeIndex={activeIndex} onClickHandler={this.goToIndex} />
-        {slides}
-        <CarouselControl direction="prev" directionText="Previous" onClickHandler={this.previous} />
-        <CarouselControl direction="next" directionText="Next" onClickHandler={this.next} />
-      </Carousel>
-    );
-  }
+  )
 }
 
-
-export default Caroulsel;
+export default Carousel
