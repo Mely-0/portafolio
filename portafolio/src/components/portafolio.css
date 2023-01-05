@@ -29,9 +29,6 @@ li:hover{
     text-decoration-line: underline;
     color: yellow;
 }
-/* .texto{
-    w
-} */
 .contenedor1{
     width: 80%;
     height: 40%;
@@ -53,7 +50,7 @@ li:hover{
     height: 70%;
     margin: auto;
     margin-top: 20px;
-    background-image: url('./img/lorainne.png');
+    background-image: url('./img/breiner.png');
     background-repeat: no-repeat;
     background-size: 100% 100%;
     border-radius: 50%;
@@ -365,7 +362,7 @@ h3{
         height: 72%;
         margin: auto;
         margin-top: 20px;
-        background-image: url('./img/lorainne.png');
+        background-image: url('./img/breiner.png');
         background-repeat: no-repeat;
         background-size: 100% 100%;
         border-radius: 50%;
