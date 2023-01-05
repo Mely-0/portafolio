@@ -31,7 +31,7 @@ export const Portafolio = () => {
     <div className='contenedor1' id='contenedor1'>
       <section className='texto'>
         <h1>Franco Muñoz</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In, cupiditate.</p>
+        <p>Programador de software , 18 años.</p>
       </section>
       <section className='foto'></section>
     </div>
@@ -70,8 +70,7 @@ profesión y aprender constantemente cosas nuevas.</h5>
             </div>
             <div className="face face2">
                 <div className="content">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cum cumque minus iste veritatis provident at.</p>
-                        <a href="#">Read More</a>
+                <a href=" https://incandescent-frangipane-448ff1.netlify.app/"> Read More</a>
                 </div>
             </div>
         </div>
@@ -84,8 +83,7 @@ profesión y aprender constantemente cosas nuevas.</h5>
             </div>
             <div className="face face2">
                 <div className="content">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cum cumque minus iste veritatis provident at.</p>
-                        <a href="#">Read More</a>
+                        <a href="https://lighthearted-cajeta-25981f.netlify.app/">Read More</a>
                 </div>
             </div>
         </div>
@@ -98,8 +96,7 @@ profesión y aprender constantemente cosas nuevas.</h5>
             </div>
             <div className="face face2">
                 <div className="content">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cum cumque minus iste veritatis provident at.</p>
-                        <a href="#">Read More</a>
+                  <a href=" https://comfy-elf-152548.netlify.app/"> Read More</a>
                 </div>
             </div>
         </div>
@@ -107,9 +104,11 @@ profesión y aprender constantemente cosas nuevas.</h5>
     </div>
     <div className='contactos-pro' id='contactos-pro'>
     <div className='contactos'>
-      <article className='img-1'>
+        <a href="https://github.com/PROYECTO-X2022-02" className='img-1'>
+      <article >
       <FaGithub className='ico-1'/>
       </article>
+      </a>
       <article className='img-2'>
         <FaFacebookSquare className='ico-2'/>
       </article>

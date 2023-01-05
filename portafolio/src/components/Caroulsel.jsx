@@ -30,11 +30,11 @@ function Carousel () {
     </div>
   </div>
   <button class="carousel-control-prev text-light" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="carousel-control-prev-icon" aria-hidden="true" id='click'></span>
     <span class="visually-hidden">Previous</span>
   </button>
   <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="carousel-control-next-icon" aria-hidden="true" id='click2'></span>
     <span class="visually-hidden">Next</span>
   </button>
 </div>

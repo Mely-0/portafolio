@@ -71,6 +71,12 @@ li:hover{
     background-color:#1877F2;
     position: absolute;
 }
+p{
+    font-weight: 600;
+}
+.card{
+    width: 100%;
+}
 h2, h5{
     text-align: center;
     color: white;
@@ -79,6 +85,12 @@ h2, h5{
 .aboutme{
     width: 80%;
     margin: auto;
+}
+#click{
+   background-color: black;
+}
+#click2{
+    background-color: black;
 }
 #carouselExampleIndicators{
  width: 100%;
@@ -112,7 +124,7 @@ h2, h5{
 #habi1{
     width: 80%;
     height: 100%;
-    margin: auto;
+    margin-left: 3%;
 }
 #html, #css, #js{
 width: 20px;
@@ -121,16 +133,19 @@ height: 230px;
 #habi2{
     width: 80%;
     height: 100%;
+    margin-left: 4%;
 }
 #habi3{
     width: 80%;
     height: 100%;
     margin: auto;
+    margin-left: 4%;
 }
 #habi4{
     width: 80%;
     height: 100%;
     margin: auto;
+    margin-left: 4%;
 }
 
 .proyectos{
