@@ -55,8 +55,8 @@ export const Portafolio = () => {
       </nav>
       <div className="contenedor1" id="contenedor1">
         <section className="texto">
-          <h1>Miguel Salazar</h1>
-          <p>Programador de software , 23 años.</p>
+          <h1>Robert Guerra</h1>
+          <p>Programador de software , 25 años.</p>
         </section>
         <section className="foto"></section>
       </div>
@@ -66,13 +66,9 @@ export const Portafolio = () => {
         <h5 className="aboutme">
           Sobre mi
           <hr />
-          Persona responsable, dispuesto a cualquier reto que se presente y a
-          nuevas actitudes que aprender. Ambicioso con lo que deseo alcanzar,
-          luchando por cada uno de mis sueños, no a lo baldragas y soy alguien
-          lleno de muchos talentos, bienquisto trabajador y esforzado. Siempre
-          actuando con humildad y el deseo de ayudar a quien de mi requiera. Me
-          gusta cuantiosamente el cine como un séptimo arte magistral y la
-          música de manera ínfula.
+          Soy una persona agradable, divertida y simpática, soy honesto y
+          puntual, trabajo bien en equipo, tengo una mente creativa y siempre
+          estoy dispuesto a afrontar nuevos retos.
         </h5>
         <div className="habilidades" id="habilidades">
           {<Caroulsel />}
@@ -87,12 +83,12 @@ export const Portafolio = () => {
             <div className="face face1">
               <div className="content">
                 <img src="https://github.com/Jhonierpc/WebDevelopment/blob/master/CSS%20Card%20Hover%20Effects/img/design_128.png?raw=true" />
-                <h3>Pagina Anime</h3>
+                <h3>Pagina con Chakra ui</h3>
               </div>
             </div>
             <div className="face face2">
               <div className="content">
-                <a href="https://comfy-praline-cc6350.netlify.app/">Ver</a>
+                <a href="https://statuesque-gumdrop-e4a860.netlify.app/">Ver</a>
               </div>
             </div>
           </div>
@@ -100,12 +96,12 @@ export const Portafolio = () => {
             <div className="face face1">
               <div className="content">
                 <img src="https://github.com/Jhonierpc/WebDevelopment/blob/master/CSS%20Card%20Hover%20Effects/img/code_128.png?raw=true" />
-                <h3>Pokemon</h3>
+                <h3>React router</h3>
               </div>
             </div>
             <div className="face face2">
               <div className="content">
-                <a href="https://astounding-moxie-aed4c9.netlify.app/">Ver</a>
+                <a href="https://steady-horse-7c7164.netlify.app/">Ver</a>
               </div>
             </div>
           </div>
@@ -113,12 +109,12 @@ export const Portafolio = () => {
             <div className="face face1">
               <div className="content">
                 <img src="https://github.com/Jhonierpc/WebDevelopment/blob/master/CSS%20Card%20Hover%20Effects/img/launch_128.png?raw=true" />
-                <h3>Juego Serpiente</h3>
+                <h3>Lista de tareas</h3>
               </div>
             </div>
             <div className="face face2">
               <div className="content">
-                <a href="https://sprightly-manatee-c0427d.netlify.app/">Ver</a>
+                <a href="https://flourishing-pothos-3b63f2.netlify.app/">Ver</a>
               </div>
             </div>
           </div>
@@ -126,7 +122,7 @@ export const Portafolio = () => {
       </div>
       <div className="contactos-pro" id="contactos-pro">
         <div className="contactos">
-          <a href="https://github.com/miguel1015" className="img-1">
+          <a href="https://github.com/rxseg" className="img-1">
             <article>
               <FaGithub className="ico-1" />
             </article>
