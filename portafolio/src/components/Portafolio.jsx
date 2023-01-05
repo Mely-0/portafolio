@@ -55,8 +55,8 @@ export const Portafolio = () => {
       </nav>
       <div className="contenedor1" id="contenedor1">
         <section className="texto">
-          <h1>Jose Najera</h1>
-          <p>Programador de software , 22 años.</p>
+          <h1>Jasil Florez</h1>
+          <p>Programador de software , 20 años.</p>
         </section>
         <section className="foto"></section>
       </div>
@@ -66,8 +66,9 @@ export const Portafolio = () => {
         <h5 className="aboutme">
           Sobre mi
           <hr />
-          Programador de software Full Stack, JavaScripts lover, siempre en
-          busca de nuevos retos y de nuevos aprendizaje - BACK-END
+          Soy Jasil Flórez tengo 20 años soy de Barranquilla, soy
+          una persona muy divertida,tambien soy puntual en mi
+          trabajo me gusta aprender cada dia mas,especializado en front-end
         </h5>
         <div className="habilidades" id="habilidades">
           {<Caroulsel />}
@@ -87,7 +88,7 @@ export const Portafolio = () => {
             </div>
             <div className="face face2">
               <div className="content">
-                <a href="https://classy-dolphin-9ea647.netlify.app/">Ver</a>
+                <a href="https://idyllic-nougat-aa8a47.netlify.app/">Ver</a>
               </div>
             </div>
           </div>
@@ -95,12 +96,14 @@ export const Portafolio = () => {
             <div className="face face1">
               <div className="content">
                 <img src="https://github.com/Jhonierpc/WebDevelopment/blob/master/CSS%20Card%20Hover%20Effects/img/code_128.png?raw=true" />
-                <h3>Proyecto</h3>
+                <h3>Pagina de peliculas</h3>
               </div>
             </div>
             <div className="face face2">
               <div className="content">
-                <a href="#">Ver</a>
+                <a href="https://kaleidoscopic-conkies-12b9f1.netlify.app/">
+                  Ver
+                </a>
               </div>
             </div>
           </div>
@@ -108,12 +111,12 @@ export const Portafolio = () => {
             <div className="face face1">
               <div className="content">
                 <img src="https://github.com/Jhonierpc/WebDevelopment/blob/master/CSS%20Card%20Hover%20Effects/img/launch_128.png?raw=true" />
-                <h3>Proyecto</h3>
+                <h3>Calculadora</h3>
               </div>
             </div>
             <div className="face face2">
               <div className="content">
-                <a href="#">Ver</a>
+                <a href="https://calm-malasada-e06427.netlify.app/">Ver</a>
               </div>
             </div>
           </div>
@@ -121,7 +124,7 @@ export const Portafolio = () => {
       </div>
       <div className="contactos-pro" id="contactos-pro">
         <div className="contactos">
-          <a href="https://github.com/Jnajera0430" className="img-1">
+          <a href="https://github.com/Jasilflorez" className="img-1">
             <article>
               <FaGithub className="ico-1" />
             </article>
