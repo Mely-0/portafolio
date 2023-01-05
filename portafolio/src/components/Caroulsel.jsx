@@ -33,12 +33,6 @@ function Carousel () {
           data-bs-slide-to="3"
           aria-label="Slide 4"
         ></button>
-        <button
-          type="button"
-          data-bs-target="#carouselExampleIndicators"
-          data-bs-slide-to="4"
-          aria-label="Slide 5"
-        ></button>
       </div>
       <div id="cont-habi" class="carousel-inner">
         <div id="habi1" class="carousel-item active">
@@ -56,10 +50,6 @@ function Carousel () {
         <div id="habi4" class="carousel-item">
           <p>REACT</p>
           <img src={image4} class="d-block w-100" alt="..." id="html" />
-        </div>
-        <div id="habi5" class="carousel-item">
-          <p>NODE JS</p>
-          <img src={image5} class="d-block w-100" alt="..." id="html" />
         </div>
       </div>
       <button
