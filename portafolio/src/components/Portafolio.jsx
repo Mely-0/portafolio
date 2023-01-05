@@ -55,8 +55,8 @@ export const Portafolio = () => {
       </nav>
       <div className="contenedor1" id="contenedor1">
         <section className="texto">
-          <h1>Breyner Fontalvo</h1>
-          <p>Programador de software , 25 años.</p>
+          <h1>Luis Hernandez</h1>
+          <p>Programador de software , 24 años.</p>
         </section>
         <section className="foto"></section>
       </div>
@@ -66,8 +66,10 @@ export const Portafolio = () => {
         <h5 className="aboutme">
           Sobre mi
           <hr />
-          soy una persona responsable con la capacidad de aprender en cualquier
-          area requerida habilidades
+          Estudiante de ingeniería de sistemas, soy una persona con gran interés
+          de aprender y enriquecer mis conocimientos, también con capacidades de
+          dar soluciones a situaciones presentes en mi campo laboral y
+          totalmente comprometido y disciplinado en las cosas que realizo.
         </h5>
         <div className="habilidades" id="habilidades">
           {<Caroulsel />}
@@ -87,7 +89,7 @@ export const Portafolio = () => {
             </div>
             <div className="face face2">
               <div className="content">
-                <a href="https://classy-raindrop-a0982e.netlify.app/">Ver</a>
+                <a href="https://rad-elf-b686bb.netlify.app/">Ver</a>
               </div>
             </div>
           </div>
@@ -100,7 +102,7 @@ export const Portafolio = () => {
             </div>
             <div className="face face2">
               <div className="content">
-                <a href="https://jazzy-unicorn-122ede.netlify.app/">Ver</a>
+                <a href="https://glistening-cobbler-b961fa.netlify.app/">Ver</a>
               </div>
             </div>
           </div>
@@ -108,12 +110,12 @@ export const Portafolio = () => {
             <div className="face face1">
               <div className="content">
                 <img src="https://github.com/Jhonierpc/WebDevelopment/blob/master/CSS%20Card%20Hover%20Effects/img/launch_128.png?raw=true" />
-                <h3>Proyecto</h3>
+                <h3>React router</h3>
               </div>
             </div>
             <div className="face face2">
               <div className="content">
-                <a href="#">Ver</a>
+                <a href="https://sparkling-sorbet-6f033a.netlify.app/">Ver</a>
               </div>
             </div>
           </div>
@@ -121,7 +123,7 @@ export const Portafolio = () => {
       </div>
       <div className="contactos-pro" id="contactos-pro">
         <div className="contactos">
-          <a href="https://github.com/BreinerFontalvo" className="img-1">
+          <a href="https://github.com/LuisH311" className="img-1">
             <article>
               <FaGithub className="ico-1" />
             </article>
