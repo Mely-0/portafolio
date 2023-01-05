@@ -65,12 +65,12 @@ profesión y aprender constantemente cosas nuevas.</h5>
             <div className="face face1">
                 <div className="content">
                     <img src="https://github.com/Jhonierpc/WebDevelopment/blob/master/CSS%20Card%20Hover%20Effects/img/design_128.png?raw=true"/>
-                    <h3>Design</h3>
+                    <h3>Lista de tareas</h3>
                 </div>
             </div>
             <div className="face face2">
                 <div className="content">
-                <a href=" https://incandescent-frangipane-448ff1.netlify.app/"> Read More</a>
+                <a href=" https://incandescent-frangipane-448ff1.netlify.app/"> Ver</a>
                 </div>
             </div>
         </div>
@@ -78,12 +78,12 @@ profesión y aprender constantemente cosas nuevas.</h5>
             <div className="face face1">
                 <div className="content">
                     <img src="https://github.com/Jhonierpc/WebDevelopment/blob/master/CSS%20Card%20Hover%20Effects/img/code_128.png?raw=true"/>
-                    <h3>Code</h3>
+                    <h3>Hoja de vida</h3>
                 </div>
             </div>
             <div className="face face2">
                 <div className="content">
-                        <a href="https://lighthearted-cajeta-25981f.netlify.app/">Read More</a>
+                        <a href="https://lighthearted-cajeta-25981f.netlify.app/">ver</a>
                 </div>
             </div>
         </div>
@@ -91,12 +91,12 @@ profesión y aprender constantemente cosas nuevas.</h5>
             <div className="face face1">
                 <div className="content">
                     <img src="https://github.com/Jhonierpc/WebDevelopment/blob/master/CSS%20Card%20Hover%20Effects/img/launch_128.png?raw=true"/>
-                    <h3>Launch</h3>
+                    <h3>Proyecto con chakra ui</h3>
                 </div>
             </div>
             <div className="face face2">
                 <div className="content">
-                  <a href=" https://comfy-elf-152548.netlify.app/"> Read More</a>
+                  <a href=" https://comfy-elf-152548.netlify.app/">ver</a>
                 </div>
             </div>
         </div>
